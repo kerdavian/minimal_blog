@@ -7,7 +7,7 @@ body {
 }
 .main-menu {
     background-color: black;
-    
+    font-family: Arial, Helvetica, sans-serif;
     padding: 0;
     border-bottom: 2px solid white;
     padding-bottom: 10px;
@@ -35,6 +35,7 @@ body {
     width: 800px;
     margin: 0 auto;
     margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .main-content{
@@ -66,8 +67,10 @@ figcaption{
     height: 50px;
     margin: 0 auto;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .footer-text{
     padding-top: 10px;
     font-size: 10px;
+    
 }

@@ -1,7 +1,7 @@
 body {
     background-color: black;
     margin: 0;
-    color: white;
+    /* color: white; */
     
     
 }
@@ -9,33 +9,34 @@ body {
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgb(200,200,200);
     padding-bottom: 10px;
     padding-top: 10px;
     text-align: center;
-    width: 500px;
+    width: 450px;
     margin: 0 auto;
     margin-top: 30px;
 }
 
 .main-menu-item {
     display: inline-block;
-    margin: 0 30px 0 30px;
+    margin: 0 20px 0 20px;
    
 }
 
 .main-menu-item a{
     text-decoration: none;
-    color: white;
-    font-size: 20px;
+    color: rgb(200,200,200);
+    font-size: 12px;
 }
 
 .main-container {
-    background-color: gray;
-    width: 800px;
+    background-color: rgb(38,38,38);
+    width: 900px;
     margin: 0 auto;
     margin-top: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(200,200,200);
 }
 
 .main-content{
@@ -43,9 +44,21 @@ body {
     padding-right: 30px;
     
 }
+.created-date{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+    color:  rgb(110,110,110)
+}
+
 header{
     padding-top: 30px;
     
+}
+
+h1{
+    margin: 0;
+    margin-top: 20px;
 }
 figure {
     margin: 0;
@@ -54,23 +67,28 @@ figure {
 
 .img{
     width: 200px;
-    height: 300px;
+    height: 250px;
     
 }
 figcaption{
     font-style: italic;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
+    font-size: 12px;
 }
 .footer{
-    background-color: hotpink;
-    width: 800px;
-    height: 50px;
+    
+    /* width: 800px; */
+    height: 70px;
+    width: 1350px;
     margin: 0 auto;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(20, 20, 20);
 }
 .footer-text{
-    padding-top: 10px;
-    font-size: 10px;
+    padding-top: 20px;
+    font-size: 12px;
+    color: rgb(200,200,200) ;
+    background-color: rgb(20, 20, 20);
     
 }

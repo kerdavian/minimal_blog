@@ -20,7 +20,7 @@ body {
 
 .main-menu-item {
     display: inline-block;
-    margin: 0 20px 0 20px;
+    /* margin: 0 20px 0 20px; */
    
 }
 
@@ -28,6 +28,11 @@ body {
     text-decoration: none;
     color: rgb(200,200,200);
     font-size: 12px;
+    padding: 10px 20px 10px 20px;
+}
+
+.main-menu a:hover{
+    background-color: gray;
 }
 
 .main-container {
@@ -68,25 +73,24 @@ figure {
 .img{
     width: 200px;
     height: 250px;
+  
     
 }
+
 figcaption{
     font-style: italic;
     padding-bottom: 50px;
     font-size: 12px;
 }
 .footer{
-    
-    /* width: 800px; */
     height: 70px;
-    width: 1350px;
     margin: 0 auto;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(20, 20, 20);
 }
 .footer-text{
-    padding-top: 20px;
+    padding-top: 15px;
     font-size: 12px;
     color: rgb(200,200,200) ;
     background-color: rgb(20, 20, 20);
